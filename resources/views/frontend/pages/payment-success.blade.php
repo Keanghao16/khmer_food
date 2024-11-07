@@ -26,7 +26,7 @@
     <section class="fp__payment_page mt_100 xs_mt_70 mb_100 xs_mb_70">
         <div class="container">
             <h2>View Your Order</h2>
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-lg-8">
                     <div class="fp__payment_area">
                         <div class="row">

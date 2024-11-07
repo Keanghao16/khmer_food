@@ -12,7 +12,7 @@ class TwilioService
     {
         $sid = env('TWILIO_SID');
         $token = env('TWILIO_AUTH_TOKEN');
-        $this->twilio = new Client($sid, $token);
+        // $this->twilio = new Client($sid, $token);
     }
 
     public function sendOTP($phoneNumber, $resend = false)

@@ -117,7 +117,8 @@
                                                             </div>
                                                             <div style="display:flex;">
                                                                 <button style="width: 200px" type="button"
-                                                                    class="common_btn cancel_new_address">cancel</button>
+                                                                    class="common_btn cancel_new_address me-3" data-bs-dismiss="modal"
+                                                                    aria-label="Close">cancel</button>
                                                                 <button type="submit" class="common_btn">save
                                                                     address</button>
                                                             </div>

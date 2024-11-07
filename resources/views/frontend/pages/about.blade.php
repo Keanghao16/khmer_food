@@ -25,8 +25,8 @@
         <!--=============================
         ABOUT PAGE START
     ==============================-->
-    <section class="fp__about_us mt_120 xs_mt_90">
-        <div class="container">
+    <section class="fp__about_us mt_100 xs_mt_90">
+        <div class="container mb-5">
             <div class="row">
                 <div class="col-xl-6 col-lg-5 wow fadeInUp" data-wow-duration="1s">
                     <div class="fp__about_us_img">
@@ -49,7 +49,7 @@
         </div>
     </section>
 
-    @include('frontend.home.components.why-choose-us')
+    <!-- @include('frontend.home.components.why-choose-us')
 
     <section class="fp__about_video mt_100 xs_mt_70">
         <div class="container wow fadeInUp" data-wow-duration="1s">
@@ -343,7 +343,7 @@
                 </div> --}}
             </div>
         </div>
-    </section>
+    </section> -->
     <!--=============================
         ABOUT PAGE END
     ==============================-->

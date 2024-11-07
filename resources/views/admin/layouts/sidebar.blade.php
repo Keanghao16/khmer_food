@@ -58,10 +58,10 @@
                     href="{{ route('admin.slider.index') }}"><i class="fas fa-images"></i>
                     <span>Slider</span></a>
             </li>
-            <li class="{{ setSidebarActive(['admin.why-choose-us.*']) }}"><a class="nav-link"
+            <!-- <li class="{{ setSidebarActive(['admin.why-choose-us.*']) }}"><a class="nav-link"
                     href="{{ route('admin.why-choose-us.index') }}"><i class="fas fa-file-word"></i>
                     <span>Why Choose Us</span></a>
-            </li>
+            </li> -->
 
             <li class="dropdown {{ setSidebarActive(['admin.category.*', 'admin.product.*']) }}">
                 <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i

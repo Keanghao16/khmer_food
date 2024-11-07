@@ -15,14 +15,14 @@ Route::middleware('guest')->group(function () {
     Route::get('register', [RegisteredUserController::class, 'index'])
         ->name('register.index');
 
-    Route::post('register/send', [RegisteredUserController::class, 'sendOTP'])
-        ->name('register.send');
+    Route::post('register/send', [RegisteredUserController::class, 'register'])
+        ->name('register');
 
-    Route::post('register/verify', [RegisteredUserController::class, 'verifyOTP'])
-        ->name('register.verify');
+    // Route::post('register/verify', [RegisteredUserController::class, 'verifyOTP'])
+    //     ->name('register.verify');
 
-    Route::post('register/resend', [RegisteredUserController::class, 'resendOTP'])
-        ->name('register.resend');
+    // Route::post('register/resend', [RegisteredUserController::class, 'resendOTP'])
+    //     ->name('register.resend');
 
 
     Route::get('login', [AuthenticatedSessionController::class, 'create'])

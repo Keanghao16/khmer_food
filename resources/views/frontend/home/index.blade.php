@@ -13,7 +13,7 @@
     <!--=============================
                                                                     WHY CHOOSE START
                                                                 ==============================-->
-    @include('frontend.home.components.why-choose-us')
+    <!-- @include('frontend.home.components.why-choose-us') -->
     <!--=============================
                                                                     WHY CHOOSE END
                                                                 ==============================-->

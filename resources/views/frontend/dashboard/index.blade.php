@@ -54,20 +54,20 @@
                                     aria-controls="v-pills-address" aria-selected="true"><span><i
                                             class="fas fa-user"></i></span>Address</button>
 
-                                <button class="nav-link" id="v-pills-reservation-tab" data-bs-toggle="pill"
+                                <!-- <button class="nav-link" id="v-pills-reservation-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-reservation" type="button" role="tab"
                                     aria-controls="v-pills-reservation" aria-selected="false"><span><i
-                                            class="fas fa-bags-shopping"></i></span> Reservation</button>
+                                            class="fas fa-bags-shopping"></i></span> Reservation</button> -->
 
                                 <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-profile" type="button" role="tab"
                                     aria-controls="v-pills-profile" aria-selected="false"><span><i
                                             class="fas fa-bags-shopping"></i></span> Order</button>
 
-                                <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                                <!-- <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-messages" type="button" role="tab"
                                     aria-controls="v-pills-messages" aria-selected="false"><span><i
-                                            class="fas fa-star"></i></span> Reviews</button>
+                                            class="fas fa-star"></i></span> Reviews</button> -->
 
                                 <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
                                     data-bs-target="#v-pills-settings" type="button" role="tab"

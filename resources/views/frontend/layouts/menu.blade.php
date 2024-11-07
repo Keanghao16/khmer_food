@@ -65,10 +65,10 @@
                 <li>
                     <a class="{{ setSidebarActive(['dashboard']) }}" href="{{ route('login') }}"><i class="far fa-user"></i></a>
                 </li>
-                <li>
+                <!-- <li>
                     <a class="common_btn" href="#" data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop">reservation</a>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>

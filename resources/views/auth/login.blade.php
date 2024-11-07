@@ -38,9 +38,8 @@
                                 <div class="row">
                                     <div class="col-xl-12">
                                         <div class="fp__login_imput">
-                                            <label for="login">email / phone number</label> (e.g. +855 23 XXX XXXX)
-                                            <input name="login" placeholder="Enter email or phone number"
-                                                value="+855">
+                                            <label for="login">email</label>
+                                            <input name="login" placeholder="Enter email">
                                         </div>
                                     </div>
                                     <div class="col-xl-12">

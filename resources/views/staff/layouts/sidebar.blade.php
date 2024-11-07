@@ -93,7 +93,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="dropdown {{ setSidebarActive(['staff.reservation-time.*', 'staff.reservation.*', 'staff.table.*']) }}">
+            <!-- <li class="dropdown {{ setSidebarActive(['staff.reservation-time.*', 'staff.reservation.*', 'staff.table.*']) }}">
                 <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-chair"></i>
                     <span>Manage Reservations</span></a>
                 <ul class="dropdown-menu">
@@ -107,7 +107,7 @@
                             href="{{ route('staff.table.index') }}">Tables</a>
                     </li>
                 </ul>
-            </li>
+            </li> -->
         </ul>
 
 
