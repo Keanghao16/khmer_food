@@ -27,7 +27,7 @@
                         <div>{{ session('error') ?? session('success') }}</div>
                         @endif
                         <p>Sign up to continue</p>
-                        <form action="{{ route('register.send') }}" method="POST">
+                        <form action="{{ route('register') }}" method="POST">
                             @csrf
                             <div class="row">
                                 <div class="col-xl-12">

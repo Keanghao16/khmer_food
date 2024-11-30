@@ -42,7 +42,7 @@ class LoginRequest extends FormRequest
     public function messages()
     {
         return [
-            'login.required' => 'The email or phone number field is required.',
+            'login.required' => 'The email is required.',
             'password.required' => 'The password field is required.',
         ];
     }
@@ -57,7 +57,6 @@ class LoginRequest extends FormRequest
         $this->ensureIsNotRateLimited();
 
         $user = User::where('email', $this->login)
-            ->orWhere('phone_number', $this->login)
             ->first();
 
         if (!$user || !Hash::check($this->password, $user->password)) {

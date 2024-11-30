@@ -43,13 +43,13 @@ class AdminManagementController extends Controller
         // $randomNumber = intval(Str::random(7, '0123456789'));
 
         // Generate a random 7-digit number
-        $randomNumber = random_int(1000000, 9999999);
+        // $randomNumber = random_int(1000000, 9999999);
 
         $user = new User();
         $user->name = $request->name;
         $user->email = $request->email;
         $user->role = $request->role;
-        $user->phone_number = $randomNumber;
+        // $user->phone_number = $randomNumber;
         $user->password = bcrypt($request->password);
         $user->save();
 
